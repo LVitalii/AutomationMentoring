@@ -10,7 +10,15 @@ namespace HomeTasks
     {
         static void Main(string[] args)
         {
-            Tasks.SashaTask();
+            //Tasks.SashaTask();
+            //Tasks.Task1();
+            //Tasks.Task2();
+            //Tasks.Task4();
+            //Tasks.Task5();
+            //Tasks.Task6();
+            //Tasks.Task1Collection();
+            //Tasks.Task2Collection();
+            TasksCollection3.Execute();
         }
     }
 }
