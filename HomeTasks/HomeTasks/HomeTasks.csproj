@@ -43,6 +43,7 @@
   <ItemGroup>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Tasks\HelperClass.cs" />
     <Compile Include="Tasks\Tasks.cs" />
     <Compile Include="Tasks\TasksCollection3.cs" />
   </ItemGroup>
