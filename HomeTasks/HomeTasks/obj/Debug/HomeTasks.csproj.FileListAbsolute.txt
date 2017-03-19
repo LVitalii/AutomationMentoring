@@ -1,1 +1,6 @@
 D:\Projects\Automation Mentoring\CSHARP\HomeTasks\HomeTasks\bin\Debug\HomeTasks.exe.config
+D:\Projects\Automation Mentoring\CSHARP\HomeTasks\HomeTasks\bin\Debug\HomeTasks.exe
+D:\Projects\Automation Mentoring\CSHARP\HomeTasks\HomeTasks\bin\Debug\HomeTasks.pdb
+D:\Projects\Automation Mentoring\CSHARP\HomeTasks\HomeTasks\obj\Debug\HomeTasks.csprojResolveAssemblyReference.cache
+D:\Projects\Automation Mentoring\CSHARP\HomeTasks\HomeTasks\obj\Debug\HomeTasks.exe
+D:\Projects\Automation Mentoring\CSHARP\HomeTasks\HomeTasks\obj\Debug\HomeTasks.pdb
