@@ -8,5 +8,7 @@ namespace HomeTasks
 {
     class HelperClass
     {
+        public void GetHelp()
+        { }
     }
 }
