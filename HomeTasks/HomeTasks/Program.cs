@@ -10,6 +10,7 @@ namespace HomeTasks
     {
         static void Main(string[] args)
         {
+            Tasks.SashaTask();
         }
     }
 }
