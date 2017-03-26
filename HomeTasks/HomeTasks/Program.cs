@@ -34,7 +34,13 @@ namespace HomeTasks
             //bank.GetMoneyFromAccount(legal, 3000);
             //bank.PutMoneyToAccount(legal, 40000);
 
+            ConsoleLogger toConsole = new ConsoleLogger();
+            FileLogger toFile = new FileLogger();
+            AggregateLogger all = new AggregateLogger();
 
+            Message.LogHappyMessage(toConsole);
+            Message.LogHappyMessage(toFile);
+            Message.LogHappyMessage(all);
         }
     }
 }

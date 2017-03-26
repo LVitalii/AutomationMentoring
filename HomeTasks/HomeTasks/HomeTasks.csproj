@@ -49,6 +49,7 @@
     <Compile Include="Tasks\OOP_output\ConsoleLogger.cs" />
     <Compile Include="Tasks\OOP_output\FileLogger.cs" />
     <Compile Include="Tasks\OOP_output\ILogger.cs" />
+    <Compile Include="Tasks\OOP_output\Message.cs" />
     <Compile Include="Tasks\OOP_person\Bank.cs" />
     <Compile Include="Tasks\OOP_person\Citizen.cs" />
     <Compile Include="Tasks\OOP_person\IHashId.cs" />

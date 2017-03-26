@@ -6,11 +6,11 @@ using System.Threading.Tasks;
 
 namespace HomeTasks
 {
-    public class ConsoleLogger : ILogger
+    public static class Message
     {
-        public void Log(string text)
+        public static void LogHappyMessage(ILogger logger)
         {
-            Console.WriteLine(text);
+            logger.Log("I am happy!");
         }
     }
 }
