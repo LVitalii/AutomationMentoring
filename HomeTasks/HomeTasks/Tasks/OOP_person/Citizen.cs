@@ -9,6 +9,11 @@ namespace HomeTasks
 {
     public class Citizen : Person, IHashId
     {
+        public Citizen(string name, int age, int id) : base (name, age)
+        {
+            this.id = id;
+        }
+
         private int id;
         public int Id
         {
