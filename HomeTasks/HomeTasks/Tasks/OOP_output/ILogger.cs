@@ -6,9 +6,8 @@ using System.Threading.Tasks;
 
 namespace HomeTasks
 {
-    class HelperClass
+    public interface ILogger
     {
-        public void GetHelp()
-        { }
+        void Log(string text);
     }
 }

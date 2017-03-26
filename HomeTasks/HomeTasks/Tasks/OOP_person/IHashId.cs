@@ -2,13 +2,11 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
-using System.Threading.Tasks;
 
 namespace HomeTasks
 {
-    class HelperClass
+    public interface IHashId
     {
-        public void GetHelp()
-        { }
+        int Id { get; }
     }
 }

@@ -6,9 +6,9 @@ using System.Threading.Tasks;
 
 namespace HomeTasks
 {
-    class HelperClass
+    public class Person
     {
-        public void GetHelp()
-        { }
+        public string name;
+        public int age;
     }
 }

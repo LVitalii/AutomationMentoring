@@ -4,11 +4,15 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
+
 namespace HomeTasks
 {
-    class HelperClass
+    public class Citizen : Person, IHashId
     {
-        public void GetHelp()
-        { }
+        private int id;
+        public int Id
+        {
+            get { return id; }
+        }
     }
 }

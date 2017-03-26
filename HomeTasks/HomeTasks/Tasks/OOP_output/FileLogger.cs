@@ -6,9 +6,11 @@ using System.Threading.Tasks;
 
 namespace HomeTasks
 {
-    class HelperClass
+    public class FileLogger : ILogger
     {
-        public void GetHelp()
-        { }
+        public void Log(string text)
+        {
+            throw new NotImplementedException();
+        }
     }
 }

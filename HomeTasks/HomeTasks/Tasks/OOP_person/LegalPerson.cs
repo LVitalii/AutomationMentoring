@@ -6,9 +6,12 @@ using System.Threading.Tasks;
 
 namespace HomeTasks
 {
-    class HelperClass
+    public class LegalPerson : IHashId
     {
-        public void GetHelp()
-        { }
+        private int id;
+        public int Id
+        {
+            get { return id; }
+        }
     }
 }
