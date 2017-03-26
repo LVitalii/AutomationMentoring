@@ -9,7 +9,6 @@ namespace HomeTasks
     //Notes to OOP hometask 1:
     //- what is connection between double and dollars and cents? 
     //- a.i: what does it mean "pokazujut"?
-    //- I expected to create dollars and cents as private. However in Add method I cannot create new object and assignt them values. So I had to set them as public 
     //
 
     public class Currency
@@ -32,9 +31,9 @@ namespace HomeTasks
             _double = @double;
         }
 
-        public int _dollars;
-        public int _cents;
-        public double _double;
+        private int _dollars;
+        private int _cents;
+        private double _double;
 
         public int Dollars 
         {
@@ -53,20 +52,12 @@ namespace HomeTasks
 
         public Currency Add(Currency currency)
         {
-            Currency newCurrency = new Currency();
-            newCurrency._dollars = this._dollars + currency._dollars;
-            newCurrency._cents = this._cents + currency._cents;
-            newCurrency._double = this._double+ currency._double;
-            return newCurrency;
+            return new Currency(currency.Dollars + this.Dollars, currency.Cents + this.Cents);
         }
 
         public Currency Multiply(int multiplier)
         {
-            Currency newCurrency = new Currency();
-            newCurrency._dollars = this._dollars * multiplier;
-            newCurrency._cents = this._cents * multiplier;
-            newCurrency._double = this._double * multiplier;
-            return newCurrency;
+            return new Currency(this.Dollars*multiplier, this.Cents*multiplier);
         }
 
         public override string ToString()
