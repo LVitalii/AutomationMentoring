@@ -18,7 +18,8 @@ namespace HomeTasks
             //Tasks.Task6();
             //Tasks.Task1Collection();
             //Tasks.Task2Collection();
-            TasksCollection3.Execute();
+            //TasksCollection3.Execute();
+            Currency cur = new Currency();
         }
     }
 }
